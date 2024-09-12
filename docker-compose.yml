@@ -1,0 +1,10 @@
+services:
+  app:
+    image: golang:1.23
+    container_name: app
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    command: go run main.go
