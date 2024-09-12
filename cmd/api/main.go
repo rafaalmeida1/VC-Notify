@@ -1,11 +1,11 @@
 package main
 
 import (
-	"concurso_vaga/handlers"
 	"log"
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"go.concurco_vaga.railway/cmd/api/handlers"
 )
 
 func main() {

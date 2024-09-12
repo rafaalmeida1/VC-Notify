@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"concurso_vaga/utils"
 	"encoding/json"
 	"net/http"
+
+	"go.concurco_vaga.railway/cmd/api/utils"
 )
 
 type NotificationRequest struct {

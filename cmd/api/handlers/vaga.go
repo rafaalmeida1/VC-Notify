@@ -1,9 +1,10 @@
 package handlers
 
 import (
-	"concurso_vaga/scrapers"
 	"encoding/json"
 	"net/http"
+
+	"go.concurco_vaga.railway/cmd/api/scrapers"
 )
 
 func GetVagas(w http.ResponseWriter, r *http.Request) {
